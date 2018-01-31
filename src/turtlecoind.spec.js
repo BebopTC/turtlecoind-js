@@ -1,7 +1,7 @@
 import { expect }         from 'chai'
 import { buildXHR }       from './xhr-utils'
 
-import * as turtlecoind   from './turtlecoind.js'
+import * as turtlecoind   from './turtlecoind'
 
 const host    = 'http://localhost',
       port    = 8081,
